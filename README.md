@@ -35,33 +35,33 @@ I. Clone the Repository
 
 II. Backend Setup (Flask)
    1.	Install Python:
-      •	Ensure you have Python installed. If not, download and install it from python.org.
+      (i) Ensure you have Python installed. If not, download and install it from python.org.
    2.	Install Dependencies:
-      •	Navigate to the backend directory in your terminal: cd path/to/your/backend
-      •	Install the necessary Python libraries using pip: pip install -r requirements.txt
+      (i) Navigate to the backend directory in your terminal: cd path/to/your/backend
+      (ii) Install the necessary Python libraries using pip: pip install -r requirements.txt
    3.	This will install all the required dependencies for the backend, including:
-      •	Flask
-      •	pickle
-      •	pandas
-      •	numpy
-      •	scikit-learn
-      •	other relevant libraries
+      (i) Flask
+      (ii) pickle
+      (iii) pandas
+      (iv) numpy
+      (v) scikit-learn
+      (vi) other relevant libraries
 
 III. Frontend Setup (React)
-     1.	Install Node.js:
-        •	Ensure you have Node.js installed. If not, download and install it from nodejs.org.
-     2.	Install Dependencies:
-        •	Navigate to the frontend directory in your terminal: cd path/to/your/frontend
-        •	Install the required dependencies using npm: npm install
+     1.	Install Node.js
+        (i) Ensure you have Node.js installed. If not, download and install it from nodejs.org.
+     2.	Install Dependencies
+        (i) Navigate to the frontend directory in your terminal: cd path/to/your/frontend
+        (ii) Install the required dependencies using npm: npm install
      3.	This will install all the required libraries for the frontend, including React and other dependencies specified in package.json.
 
 IV.  Running the Application
     1. Start the Backend (Flask)
-       cd backend
-       python app.py
+       (i) cd backend
+       (ii) python app.py
     2. Start the Frontend (React)
-       cd frontend
-       npm start
+       (i) cd frontend
+       (ii) npm start
 
 ## Future Enhancements
 1.Deploy on cloud (Heroku/AWS)
